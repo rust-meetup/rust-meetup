@@ -2,7 +2,7 @@
 title: Rust Iran Meetup
 description: "A monthly meetup on Rust lang in Iran"
 baseurl: ""
-url: "https://rust-meetup.ir"
+url: "https://rust-meetup.github.io"
 author:
   name: Hamid R. K. Pishghadam 
   twitter: Rust_ir
