@@ -1,17 +1,17 @@
 # Site settings
-title: rust-meetup-template
-description: "A starter template for recurring meetups."
+title: Rust Iran Meetup
+description: "A monthly meetup on Rust lang in Iran"
 baseurl: ""
-url: "http://CHANGEME.com"
+url: "https://rust-meetup.ir"
 author:
-  name: CHANGEME 
-  twitter: CHANGEME
-  github: CHANGEME
-  meetup: CHANGEME
-  email: CHANGEME@test.com
+  name: Hamid R. K. Pishghadam 
+  twitter: Rust_ir
+  github: rust-meetup/rust-meetup.ir
+  telegram: Rustland
+  email: kaveh@riseup.net
 
-feedback_url: https://github.com/CHANGEME/CHANGEME
-source_url: https://github.com/CHANGEME/CHANGEME
+feedback_url: https://github.com/rust-meetup/rust-meetup.ir
+source_repo: rust-meetup/rust-meetup.ir
 
 google_maps_api_key: AIzaSyBkz492n9gf895Tfi12ikKVurgIHHOFmK4
 
@@ -27,7 +27,7 @@ defaults:
 
 # Content settings
 future: true # we use dates for the actual meetup time, not the post publication time
-timezone: "Europe/Berlin"
+timezone: "Asia/Tehran"
 
 exclude:
   - .vscode

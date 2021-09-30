@@ -1,11 +1,9 @@
-example-venue:
-  short: "Example"
-  name: "Example Venue"
-  street: "Test Street 4"
-  city: "Testburg"
-  web: "http://test.com"
-  osm: "https://www.openstreetmap.org/node/42069"
+google-meet:
+  short: "Google Meet"
+  name: "Google Meet"
+  street: ""
+  city: ""
+  web: "https://meet.google.com/fkf-pffx-htt"
+  osm: ""
   directions: |
-    - Go across the street
-    - ???
-    - Profit
+    - A
