@@ -12,6 +12,12 @@ talks:
   abstract: ""
 ---
 
+## Recording
+You can watch recording on [Youtube](https://youtu.be/A2vPzWnC0Nc) or
+[Aparat](https://aparat.com/v/QcOFD)
+
+## Event
+
 This is the first Rust Iran meetup and it's online due to the Covid-19
 pandemic.
 
@@ -20,3 +26,4 @@ Bring your ideas, questions & projects:
 - What problems did you solve this week with Rust?
 - Are you just learning Rust and want some topic explained?
 - Found an interesting crate you want to talk about?
+
