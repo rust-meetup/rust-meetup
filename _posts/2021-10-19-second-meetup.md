@@ -14,11 +14,9 @@ talks:
   simple weblog with [Rocket](https://rocket.rs/) and [Diesel](https://diesel.rs/)."
 ---
 
-<!--
 ## Recording
-You can watch recording on [Youtube](https://youtu.be/A2vPzWnC0Nc) or
-[Aparat](https://aparat.com/v/QcOFD)
--->
+You can watch recording on <!-- [Youtube](https://youtu.be/A2vPzWnC0Nc) or -->
+[Aparat](https://www.aparat.com/v/snjYX)
 
 ## Event
 
