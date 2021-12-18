@@ -15,7 +15,7 @@ talks:
 ---
 
 ## Recording
-You can watch recording on <!-- [Youtube](https://youtu.be/A2vPzWnC0Nc) or -->
+You can watch recording on [Youtube](https://www.youtube.com/watch?v=O3g7H48wmaM) or
 [Aparat](https://www.aparat.com/v/snjYX)
 
 ## Event

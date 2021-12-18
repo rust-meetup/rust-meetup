@@ -8,10 +8,9 @@ talks:
   abstract: "In this meetup we will have a free talk."
 ---
 
-<!-- ## Recording
-You can watch recording on [Youtube](https://youtu.be/A2vPzWnC0Nc) or
-[Aparat](https://www.aparat.com/v/snjYX)
--->
+## Recording
+You can watch recording on [Youtube](https://youtu.be/PgH9JtLNiLc) or
+[Aparat](https://www.aparat.com/v/MYUQb/)
 
 ## Event
 
