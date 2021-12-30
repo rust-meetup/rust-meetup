@@ -12,6 +12,9 @@
           {% if talk.speaker.github %}<a class="talk-speaker-github" itemprop="sameAs" href="https://github.com/{{talk.speaker.github}}" title="@{{talk.speaker.github}} on GitHub">
             {% include logo-github.html %}
           </a>{% endif %}
+          {% if talk.speaker.framagit %}<a class="talk-speaker-github" itemprop="sameAs" href="https://framagit.org/{{talk.speaker.framagit}}" title="@{{talk.speaker.framagit}} on FramaGit">
+            {% include logo-github.html %}
+          </a>{% endif %}
           {% if talk.slides %}
             &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
           {% endif %}
