@@ -17,10 +17,10 @@ talks:
     framagit: mohsen
 ---
 
-<!-- ## Recording
-You can watch recording on [Youtube]() or
-[Aparat]()
--->
+## Recording
+You can watch recording on Youtube: [Part 1](https://www.youtube.com/watch?v=hPkL5NHAcGA), [Part 2](https://www.youtube.com/watch?v=tjMK9vHIwfc) or
+Aparat: [Part 1](https://www.aparat.com/v/Y8mj0), [Part 2](https://www.aparat.com/v/evtlY).
+
 
 ## Event
 
