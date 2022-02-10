@@ -8,7 +8,6 @@ talks:
   abstract: ""
   speaker:
     name: "Arshia Akhavan"
-    linkedin: arshia-akhavan-b937371ab
     github: ArshiAAkhavan
 ---
 
