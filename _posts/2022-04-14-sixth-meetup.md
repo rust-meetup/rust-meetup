@@ -8,9 +8,9 @@ talks:
   abstract: ""
 ---
 
-<!-- ## Recording
-You can watch recording on [Youtube](https://www.youtube.com/watch?v=7MQ8FbpInsc) or [Aparat](https://www.aparat.com/v/jnWtF)
--->
+## Recording
+You can watch recording on [Youtube](https://youtu.be/m990yImySm8) or [Aparat](https://www.aparat.com/v/YD7bB)
+
 
 ## Event
 
