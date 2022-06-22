@@ -14,3 +14,15 @@
     @extend %half;
   }
 }
+
+
+.badge {
+  display: inline;
+  color: white;
+  font-size: smaller;
+  background-color: $color-ac;
+  padding: 0.5px 3px 1px 3px;
+  border-radius: 20%;
+  margin: 2px;
+  width: min-content;
+}

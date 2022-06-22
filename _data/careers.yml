@@ -1,0 +1,11 @@
+- name: ArvanCloud
+  website: https://www.arvancloud.com
+  apply_link: https://www.arvancloud.com/jobs
+  logo: /assets/careers/arvancloud.png
+  description: is hiring Rust and C developers for the CDN team
+  
+- name: Playpod
+  website: https://playpod.ir/
+  apply_link: https://careers.playpod.ir/career/rust-developer/
+  logo: /assets/careers/playpod.png
+  description: is hiring Rust, C and C++ developers

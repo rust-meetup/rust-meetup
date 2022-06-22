@@ -1,0 +1,32 @@
+.career-logo {
+    height: 25px;
+    margin-right: 8px;
+    margin-left: 8px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 300ms;
+}
+
+.career-item:hover .career-logo {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.career-item {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.career-apply-link {
+    font-size: small;
+    text-decoration: underline dotted;
+}
+
+.career-disclaimer {
+    font-size: small;
+    color: grey;
+}
