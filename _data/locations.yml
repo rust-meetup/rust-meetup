@@ -16,8 +16,8 @@ jitsi:
   osm: ""
   directions:
 
-jitsi:
-  short: "skype"
+skype:
+  short: "Skype"
   name: "Skype"
   street: ""
   city: ""
