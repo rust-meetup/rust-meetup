@@ -5,8 +5,7 @@ google-meet:
   city: ""
   web: "https://meet.google.com/fkf-pffx-htt"
   osm: ""
-  directions: |
-    - A
+  directions:
 
 jitsi:
   short: "Jitsi"
@@ -15,5 +14,13 @@ jitsi:
   city: ""
   web: "https://meet.jit.si/moderated/ab16ed7b15dc7a1352a80372fa4d52c671567858d984f7b15420dd26a6235f53"
   osm: ""
-  directions: |
-    - A
+  directions:
+
+jitsi:
+  short: "skype"
+  name: "Skype"
+  street: ""
+  city: ""
+  web: "https://join.skype.com/EGctYlNbnixc"
+  osm: ""
+  directions:
