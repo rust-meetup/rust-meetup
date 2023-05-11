@@ -33,6 +33,7 @@ exclude:
   - .vscode
   - .gitignore
   - meetup-orga
+  - vendor
 
 plugins:
   - jekyll-jalali
