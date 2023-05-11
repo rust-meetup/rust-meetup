@@ -3,6 +3,7 @@ name: Build and Deploy to Github Pages
 on:
   schedule:
     - cron:  '0 * * * *'
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -25,6 +26,6 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           branch: 'gh-pages'
           cname: 'rust-meetup.ir'
