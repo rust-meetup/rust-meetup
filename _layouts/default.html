@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-  {% include head.html %}
-  <body>
+{% include head.html %}
+
+<body>
     {% include header.html %}
 
     {{ content }}
 
     {% include footer.html %}
-  </body>
+</body>
+<script>
+    document.querySelectorAll(".date").forEach(elem => {
+        let date = new Date(elem.innerHTML);
+        let jdate = new Intl.DateTimeFormat('fa-IR', {dateStyle: 'medium', timeStyle: 'full'}).format(date);
+        elem.innerHTML = jdate;
+    });
+</script>
 </html>

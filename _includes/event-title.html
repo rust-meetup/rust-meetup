@@ -3,7 +3,7 @@
   <span class="title" itemprop="name">{{ event.title }}</span>
 </a>
 <span class="event-in-space-time">
-    <span class="date">{{ event.date | jdate: "%A %d %b %Y" }} ساعت {{ event.date | date: "%H:%M" }}</span>
+    <span class="date">{{ event.date | date_to_xmlschema }}</span>
   <span class="event-location">
     {% assign location = site.data.locations[event.location] %} در
     <a class="location-name" href="{{ location.web }}">&nbsp;{{ location.short }}</a>
