@@ -20,20 +20,21 @@
 
   @media screen and (max-width: ($max-width + 2 * $spacing)) {
     padding: 0 $spacing;
+    min-width: 100% !important;
   }
 }
 
 %half {
   width: 50%;
-  float: left;
+  float: right;
 
-  @media screen and (min-width: $breakpoint-one-column + 0.1rem) {
+  @media screen and (min-width: ($breakpoint-one-column + 0.1rem)) {
     &:nth-child(2n+1) {
-      clear: left;
+      clear: right;
       padding-right: $spacing;
     }
     &:nth-child(2n) {
-      clear: right;
+      clear: left;
       padding-left: $spacing;
     }
   }

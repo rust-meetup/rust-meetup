@@ -1,36 +1,36 @@
 {% assign event = include.event %}
 <div itemscope itemtype="http://schema.org/SocialEvent" itemid="{{ event.url | prepend: site.baseurl }}" class="event">
-  <header class="event-header">
-    <h1 class="event-title">
-      {% include event-title.html event=event %}
-    </h1>
-  </header>
+    <header class="event-header">
+        <h1 class="event-title">
+            {% include event-title.html event=event %}
+        </h1>
+    </header>
 
-  <div class="event-description text" itemprop="description">
-    {{ event.content | markdownify}}
+    <div class="event-description text" itemprop="description">
+        {{ event.content | markdownify}}
 
-    {% include meetup-rsvp-button.html event=event %}
-  </div>
+        {% include meetup-rsvp-button.html event=event %}
+    </div>
 
-  {% if event.talks %}
-  <ol class="talk-list is-fancy">
-    {% include talk-list.html talks=event.talks show_abstract=include.show_abstracts %}
-  </ol>
-  {% elsif include.call_for_talks %}
-  <p><em>
-    We're currently looking for talks.
+    {% if event.talks %}
+    <ol class="talk-list is-fancy">
+        {% include talk-list.html talks=event.talks show_abstract=include.show_abstracts %}
+    </ol>
+    {% elsif include.call_for_talks %}
+    <p><em>
+            در حال حاظر دنبال ارائه هستیم!
 
-    {% if event.links['Planning discussion on Github'] %}
-      <a href="{{ event.links['Planning discussion on Github'] }}">Help us!</a>
-    {% else %}
-      <a href="{{ site.feedback_url }}">Help us!</a>
+            {% if event.links['برنامه‌ریزی'] %}
+            <a href="{{ event.links['برنامه‌ریزی'] }}">به بحث بپیوندید!</a>
+            {% else %}
+            <a href="{{ site.feedback_url }}">پیشنهاد ارائه دهید!</a>
+            {% endif %}
+        </em></p>
     {% endif %}
-  </em></p>
-  {% endif %}
 
-  {% comment %}
-  {% include location.html location=event.location %}
-  {% endcomment %}
+    {% comment %}
+    {% include location.html location=event.location %}
+    {% endcomment %}
 
-  {% include event-links.html event=event %}
+    {% include event-links.html event=event %}
 </div>

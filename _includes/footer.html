@@ -1,27 +1,22 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <nav class="site-nav">
-      {% for page in site.pages %}
-        {% if page.title %}{% unless page.not_in_menu %}
-        <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
-        {% endunless %}{% endif %}
-      {% endfor %}
-    </nav>
-    <aside class="external-links">
-      <p>
-        join us on <a href="http://t.me/{{ site.author.telegram }}" rel="me">Telegram</a>
-      </p>
-      <p>
-        follow us <a href="https://twitter.com/{{ site.author.twitter }}" rel="me">on Twitter</a>
-      </p>
-      <p style="display: inline;">
-        Checkout Rust <a href="/careers">careers</a>
-        <p class="badge">{{ site.data.careers | size }}</p>
-        in iran 🇮🇷
-      </p>
-      <p>
-        contribute to this site <a href="https://github.com/{{ site.source_repo }}">on GitHub</a>
-      </p>
-    </aside>
-  </div>
+    <div class="wrapper">
+        <nav class="site-nav">
+            {% for page in site.pages %}
+            {% if page.title %}{% unless page.not_in_menu %}
+            <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
+            {% endunless %}{% endif %}
+            {% endfor %}
+        </nav>
+        <aside class="external-links">
+            <a href="http://t.me/{{ site.author.telegram }}" rel="me">
+                {% include icons/telegram.svg %}
+            </a>
+            <a href="https://twitter.com/{{ site.author.twitter }}" rel="me">
+                {% include icons/twitter.svg %}
+            </a>
+            <a href="https://github.com/{{ site.source_repo }}">
+                {% include icons/github.svg %}
+            </a>
+        </aside>
+    </div>
 </footer>

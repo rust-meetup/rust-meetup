@@ -44,11 +44,11 @@
 
     @media screen and (min-width: 20.0001rem) {
       .left {
-        flex: 1;
+        margin-right: $spacing;
       }
 
       .right {
-        margin-left: $spacing;
+        flex: 1;
       }
     }
   }

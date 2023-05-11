@@ -1,29 +1,8 @@
 ---
-title: "Rust Iran Meetup #6 - GUI In Rust"
+title: "جلسه ۶‌ام - رابط گرافیکی"
 date: 2022-04-15 21:00:00 IRST
 categories: meetup 
-location: google-meet
-talks:
-- title: "GUI In Rust"
-  abstract: ""
+location: gharar
+video: https://youtu.be/m990yImySm8
 ---
-
-## Recording
-You can watch recording on [Youtube](https://youtu.be/m990yImySm8) or [Aparat](https://www.aparat.com/v/YD7bB)
-
-
-## Event
-
-This is the Fifth Rust Iran meetup and it's online due to the Covid-19
-pandemic.
-
-Bring your ideas, questions & projects:
-- What did you work on this week?
-- What problems did you solve this week with Rust?
-- Are you just learning Rust and want some topic explained?
-- Found an interesting crate you want to talk about?
-
-Want to present something in the next meetup? mail me at kaveh at
-riseup.net, we would be so happy to have you in the meetup.
-
 

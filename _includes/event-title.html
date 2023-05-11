@@ -3,12 +3,14 @@
   <span class="title" itemprop="name">{{ event.title }}</span>
 </a>
 <span class="event-in-space-time">
-  <time datetime="{{ event.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="startDate">
-    <span class="date">{% include fancy-date.html date=event.date %}</span>
-    <span class="time">{{ event.date | date:"%H:%M" }}</span>
-  </time>
+    <span class="date">{{ event.date | jdate: "%A %d %b %Y" }} ساعت {{ event.date | date: "%H:%M" }}</span>
   <span class="event-location">
-    {% assign location = site.data.locations[event.location] %}
-    <a class="location-name" href="{{ location.web }}">@&nbsp;{{ location.short }}</a>
+    {% assign location = site.data.locations[event.location] %} در
+    <a class="location-name" href="{{ location.web }}">&nbsp;{{ location.short }}</a>
+    {% if event.video %}
+    (<a class="video" itemprop="contentUrl" href="{{ event.video }}">
+      ویدئو جلسه {% include icons/video.svg %}
+    </a>)
+    {% endif %}
   </span>
 </span>

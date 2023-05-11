@@ -12,7 +12,7 @@ header-variant: start-page
 <div class="page-home" role="main">
   <section class="next-meetup">
   {% if next_meetup %}
-    <p class="section-headline">Next</p>
+    <p class="section-headline">بعدی</p>
     <article class="event is-next-meetup">
       {% if next_meetup.talks != false %}
         {% include event.html event=next_meetup skip_date=true call_for_talks=true show_abstracts=false %}
@@ -22,11 +22,11 @@ header-variant: start-page
     </article>
   {% else %}
     <h1>
-      We are currently planning our next meetup!
+      در حال برنامه‌ریزی برای جلسه بعدی هستیم!
     </h1>
     <p>
       <a href="{{ site.feedback_url }}">
-        Help us!
+        به ما کمک کنید!
       </a>
     </p>
   {% endif %}
@@ -34,7 +34,7 @@ header-variant: start-page
 
   {% if further_down_the_line.size > 0 %}
   <section class="future-meetups">
-    <p class="section-headline">Upcoming</p>
+    <p class="section-headline">آینده</p>
     {% for event in further_down_the_line %}  
       {% include event-inline.html event=event %}
     {% endfor %}
@@ -43,7 +43,7 @@ header-variant: start-page
 
   {% if prev_meetup %}
   <section class="prev-meetup">
-    <p class="section-headline">Previous</p>
+    <p class="section-headline">قبلی</p>
     {% include event-inline.html event=prev_meetup %}
   </section>
   {% endif %}

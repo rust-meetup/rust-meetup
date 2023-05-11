@@ -1,10 +1,10 @@
 # Site settings
-title: Rust Iran Meetup
-description: "A monthly meetup on Rust lang in Iran"
+title: دورهمی ماهیانه راست
+description: "دورهمی ماهیانه زبان راست (Rust) در ایران"
 baseurl: ""
 url: "https://rust-meetup.github.io"
 author:
-  name: Hamid R. K. Pishghadam 
+  name: Rust Iran Meetup Team
   twitter: Rust_ir
   github: rust-meetup/rust-meetup.ir
   telegram: Rustland
@@ -33,3 +33,6 @@ exclude:
   - .vscode
   - .gitignore
   - meetup-orga
+
+plugins:
+  - jekyll-jalali

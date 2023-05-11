@@ -5,7 +5,7 @@
         <h1 class="talk-title" itemprop="name">{{talk.title}}</h1>
         {% if talk.speaker %}
         <p itemprop="author" itemscope itemtype="http://schema.org/Person">
-          by <em class="talk-speaker" itemprop="name">{{talk.speaker.name}}</em>
+          توسط <em class="talk-speaker" itemprop="name">{{talk.speaker.name}}</em>
           {% if talk.speaker.twitter %}<a class="talk-speaker-twitter" itemprop="sameAs" href="https://twitter.com/{{talk.speaker.twitter}}" title="@{{talk.speaker.twitter}} on Twitter">
             {% include logo-twitter.html %}
           </a>{% endif %}
@@ -19,10 +19,7 @@
             {% include logo-linkedin.html %}
           </a>{% endif %}
           {% if talk.slides %}
-            &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">Slides</a>
-          {% endif %}
-          {% if talk.video %}
-            &mdash; <a itemprop="contentUrl" href="{{ talk.video }}">Video</a>
+            &mdash; <a itemprop="isBasedOnUrl" href="{{ talk.slides }}">اسلایدها</a>
           {% endif %}
         </p>
         {% endif %}
