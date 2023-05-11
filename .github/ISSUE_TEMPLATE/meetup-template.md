@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 
 ---
+<div dir="rtl">
 
 # کارهای قبل از جلسه
 
@@ -26,3 +27,5 @@ assignees: ''
 - [ ] پست کردن ویدئو در شبکه‌های اجتمایی
   - [ ] [تلگرام](https://t.me/rust_meetup)
   - [ ] [توییتر](https://twitter.com/Rust_ir)
+
+</div>
