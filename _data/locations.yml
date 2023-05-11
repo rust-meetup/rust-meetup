@@ -1,35 +1,8 @@
-google-meet:
-  short: "Google Meet"
-  name: "Google Meet"
-  street: ""
-  city: ""
-  web: "https://meet.google.com/fkf-pffx-htt"
-  osm: ""
-  directions:
-
-jitsi:
-  short: "Jitsi"
-  name: "Jitsi Meet"
-  street: ""
-  city: ""
-  web: "https://meet.jit.si/moderated/ab16ed7b15dc7a1352a80372fa4d52c671567858d984f7b15420dd26a6235f53"
-  osm: ""
-  directions:
-
-skype:
-  short: "Skype"
-  name: "Skype"
-  street: ""
-  city: ""
-  web: "https://join.skype.com/EGctYlNbnixc"
-  osm: ""
-  directions:
-
 gharar:
-  short: "Gharar"
-  name: "Gharar"
+  short: "قرار"
+  name: "قرار"
   street: ""
   city: ""
-  web: "https://gharar.ir/r/54bd6385"
+  web: "https://gharar.ir/r/rust"
   osm: ""
   directions:

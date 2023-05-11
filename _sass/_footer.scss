@@ -9,12 +9,27 @@
     @extend %clearfix;
   }
 
+  .external-links {
+    text-align: left;
+
+    a {
+      @include svg_icon();
+    }
+  }
+
   .site-nav,
   .external-links {
     @extend %half;
+
+    @media screen and (max-width: $breakpoint-one-column) {
+        text-align: center;
+
+        &:first-child {
+          margin-bottom: 1rem;
+        }
+    }
   }
 }
-
 
 .badge {
   display: inline;

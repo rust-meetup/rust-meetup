@@ -1,35 +1,14 @@
 ---
-title: "The Second Rust Iran online meetup"
+title: "جلسه دوم - مقدمه‌ایی به توسعه وب"
 date: 2021-11-19 21:00:00 IRST
 categories: meetup 
-location: google-meet
+location: gharar
+video: https://youtu.be/A2vPzWnC0Nc
 talks:
-- title: "Intro to web development with Rocket"
+- title: "مقدمه‌ایی به توسعه وب با Rocket"
   speaker:
-    name: "Kaveh"
+    name: "کاوه"
     twitter: hamidreza_kp
     github: hamidrezakp
-  abstract: "Ever wanted to learn how to make web applications using
-  Rust? then join me on this talk and i will walk you through making a
-  simple weblog with [Rocket](https://rocket.rs/) and [Diesel](https://diesel.rs/)."
+  abstract: آیا هیچوقت به این فکر کردید که چی‌میشد اگر با راست اپلیکیشن وب مینوشتید؟ پس این ارائه رو از دست ندید. در این ارائه من با استفاده از Rocket و Diesel یک بلاگ ساده رو میسازم.
 ---
-
-## Recording
-You can watch recording on [Youtube](https://www.youtube.com/watch?v=O3g7H48wmaM) or
-[Aparat](https://www.aparat.com/v/snjYX)
-
-## Event
-
-This is the second Rust Iran meetup and it's online due to the Covid-19
-pandemic.
-
-Bring your ideas, questions & projects:
-- What did you work on this week?
-- What problems did you solve this week with Rust?
-- Are you just learning Rust and want some topic explained?
-- Found an interesting crate you want to talk about?
-
-Want to present something in the next meetup? mail me at kaveh at
-riseup.net, we would be so happy to have you in the meetup.
-
-

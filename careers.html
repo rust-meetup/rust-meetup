@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Rust Careers
+title: فرصت‌های شغلی راست
 permalink: /careers/
 ---
 
 <article class="page-event" role="main">
-  <h1>Rust Careers</h1>
+  <h1>فرصت‌های شغلی راست</h1>
   {% for career in site.data.careers %}
   <ul class="career-item">
     <img
@@ -15,15 +15,14 @@ permalink: /careers/
     />
     <a href="{{ career.website }}"> {{ career.name }}</a
     >&nbsp; {{ career.description }}&nbsp;&nbsp;
-    <a class="career-apply-link" href="{{ career.apply_link }}">Learn more</a>
+    <a class="career-apply-link" href="{{ career.apply_link }}">جزئیات بیشتر</a>
   </ul>
   {% endfor %}
   <br />
   <p class="career-disclaimer">
-    Disclaimer! This page is created only to introduce companies and teams in
-    Iran that hire Rust developers. Maintainers of this website are not
-    associated with these companies. If you want to contribute to this page you
-    can open a Pull Request or an issue
-    <a href="https://github.com/{{ site.source_repo }}">here</a>.
+    این صفحه فقط برای معرفی شرکت‌ها و تیم‌هایی که توسعه دهندگان Rust را استخدام میکنند ایجاد شده است.
+    این وبسایت ارتباطی با این شرکت‌ها و تیم‌ها ندارد.
+    اگر میخواهید در این صفحه اگهی بذارید، یک ایشو یا پول‌ریکوئست در 
+    <a href="https://github.com/{{ site.source_repo }}">اینجا</a> باز کنید.
   </p>
 </article>

@@ -1,16 +1,16 @@
 <header class="site-header">
   <div class="wrapper">
-    <div class="left">
-      {% if include.variant == "start-page" %}<h1>{% endif %}
-      <a class="site-title" href="{{ site.baseurl }}/">
-        {{ site.title }}
-      </a>
-      {% if include.variant == "start-page" %}</h1>{% endif %}
-      <p class="byline">
-        {{ site.description }}
-      </p>
-    </div>
     <div class="right">
+        <h1>
+            <a class="site-title" href="{{ site.baseurl }}/">
+                {{ site.title }}
+            </a>
+        </h1>
+        <p class="byline">
+        {{ site.description }}
+        </p>
+    </div>
+    <div class="left">
       <a href="{{ site.baseurl }}/">
         {% include logo.html %}
       </a>

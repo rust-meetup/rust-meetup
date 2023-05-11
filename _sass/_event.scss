@@ -15,6 +15,7 @@
 .event-in-space-time {
   display: block;
   font-weight: normal;
+  font-size: 1.1rem;
 }
 
 .event-title,
@@ -44,5 +45,17 @@
         color: $color-lo;
       }
     }
+  }
+}
+
+.event-location {
+  .video {
+    color: $color-fg;
+    @include svg-icon(1.3rem);
+  }
+
+  .video:hover {
+     color: $color-ac;
+     fill: $color-ac;
   }
 }

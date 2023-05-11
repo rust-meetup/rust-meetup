@@ -15,3 +15,15 @@
   background-color: $color-fg;
   color: $color-bg;
 }
+
+@mixin svg_icon($size: 2rem, $hover-color: $color-ac) {
+  svg {
+    width: $size;
+    height: $size;       
+    vertical-align: middle;
+  }
+    
+  :hover {
+    fill: $hover-color;
+  }
+}

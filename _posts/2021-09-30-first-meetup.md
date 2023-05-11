@@ -1,29 +1,15 @@
 ---
-title: "The First Rust Iran online meetup"
+title: "جلسه اول - مقدمه‌ایی به بلاکچین"
 date: 2021-10-22 21:00:00 IRST
 categories: meetup 
-location: google-meet
+location: gharar
+video: "https://youtu.be/A2vPzWnC0Nc"
 talks:
-- title: "Intro to blockchain development with Substrate"
+- title: "مقدمه‌ای به توسعه بلاکچین با استفاده از Substrate"
   speaker:
-    name: "Kian Paimani"
+    name: "کیان پیمانی"
     twitter: kianenigma
     github: kianenigma
   abstract: ""
 ---
-
-## Recording
-You can watch recording on [Youtube](https://youtu.be/A2vPzWnC0Nc) or
-[Aparat](https://aparat.com/v/QcOFD)
-
-## Event
-
-This is the first Rust Iran meetup and it's online due to the Covid-19
-pandemic.
-
-Bring your ideas, questions & projects:
-- What did you work on this week?
-- What problems did you solve this week with Rust?
-- Are you just learning Rust and want some topic explained?
-- Found an interesting crate you want to talk about?
 
