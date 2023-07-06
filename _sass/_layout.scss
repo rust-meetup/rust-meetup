@@ -31,7 +31,7 @@
   @media screen and (min-width: ($breakpoint-one-column + 0.1rem)) {
     &:nth-child(2n+1) {
       clear: right;
-      padding-right: $spacing;
+      padding-left: $spacing;
     }
     &:nth-child(2n) {
       clear: left;
